@@ -1,8 +1,10 @@
-import { combineReducers } from 'redux';
-import Activity from './ActivityReducer';
+import { combineReducers } from "redux";
+import Activity from "./ActivityReducer";
+import Member from "./MemberReducer";
 
 const rootReducer = combineReducers({
-  Activity
+  Activity,
+  Member
 });
 
 export default rootReducer;
